@@ -9,6 +9,7 @@ int main(int argc, char* argv[])
     int taille_msg;
     paquet_t pData, pAck; /*pData: pacquet de données à transert
                             pAck: pacquet d'acquittement*/
+    int i = 0;
 
     init_reseau(EMISSION);
 

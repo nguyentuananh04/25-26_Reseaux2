@@ -7,6 +7,7 @@ int main(int argc, char* argcv[]) {
     unsigned char message[MAX_INFO];
     paquet_t pData, pAck;
     int fin = 0;
+    int i = 0;
 
     init_reseau(RECEPTION);
 
